@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="../img/favicon.png">
+
+  <!-- -----------meta seo------------ -->
+  <meta name="description" content="Galeria de productos Kiba ponchos cambiadores 100% artesanales ">
+  <meta name="author" content="Maria Victoria Rodriguez">
+  <meta name="keywords" content="productos, ponchos , naturaleza, mar, bodyboard">
+  <meta name="keywords" content="productos, ponchos, cambiadores, deportes acuaticos">
+
+  <!-- sweet alert -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- -----------mi css------------ -->
+
+  <link rel="stylesheet" href="./css/style.css">
+
+
+  <title>Conoce todos los productos que Kiba tiene para vos</title>
+</head>
+
+<body class="bg-body">
+  <!---------------  inicia nav --------------->
+  <nav class="navbar navbar-expand-lg navbar-light bgNav sticky-top" id="botonera">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="./img/kibalogo.svg" alt="logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0 ">
+
+          <li class="nav-item  me-4">
+            <a class="nav-link zoom-a" aria-current="page" href="productos.html">Productos</a>
+          </li>
+
+          <li class="nav-item me-4">
+            <a class="nav-link zoom-a" href="promociones.html">Promociones</a>
+          </li>
+
+          <li class="nav-item me-4">
+            <a class="nav-link zoom-a" href="contacto.html">Contacto</a>
+          </li>
+
+          <li class="nav-item me-4">
+            <a class="nav-link zoom-a" href="conocenos.html" tabindex="-1" aria-disabled="true">Conocenos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-------------  fin nav --------------->
+  <!-------------  Comienzo Productos --------------->
+
+  <h1 class="text-center mt-4">¡Conoce todos los productos que <strong> Kiba </strong>tiene para vos! </h1>
+  <section id="titulo"> </section>
+  <!----------- comienzo de card ------------->
+
+  <main>
+
+    
+    <section class="carrito-c animated">
+      <span style="font-size:30px;cursor:pointer" id="openCar">
+        <img src="./img/cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="90px"
+        width="90px" data-bs-toggle="modal" data-bs-target="#exampleModal"></img>
+      </span>
+    </section>
+
+
+    <section class="container-fluid">
+
+      <div id="card" class="row">
+        
+      </div>
+      <!-------- fin  row -->
+    </section>
+
+    <section class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Su compra</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              
+              <div class="row text-center" id="carrito">
+          
+              </div>
+              
+          </div>
+          <div class="modal-footer">
+              <div id="total"></div>
+        </div>
+      </div>
+    </section>
+    
+    
+  </main>
+  <!-------------  Fin Productos --------------->
+
+  <!-------------  Comienzo footer --------------->
+  <footer class="d-flex align-items-center justify-content-between bg-footer">
+    <img src="./img/kibalogo.svg" alt="logo kiba" class="logo-footer ms-5">
+
+    <h3 class="text-pie ">Seguinos en Nuestras Redes</h3>
+    <div class="ms-5 me-5">
+      <a href="https://www.instagram.com/kiba.ponchos/" target="_blank">
+        <img src="./img/instagram.png" alt=" logo link redireccion instagram">
+      </a>
+
+      <a href="https://www.facebook.com/KIBA-MDQ-100685705665796/" target="_blank">
+        <img src="./img/facebook.png" alt="logo link redireccion facebook ">
+      </a>
+    </div>
+  </footer>
+
+  <!-- mi archivo js -->
+  <script src="stock.js"></script>
+  <script src="App.js"></script>
+  <script src="main.js"></script>
+
+  <!------------- js bootstrap ------------>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+
+
+</body>
+
+</html>
